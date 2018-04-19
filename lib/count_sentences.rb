@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(period)
-    self.end_with?(period)
+  def sentence?
+    self.end_with?
   end
 
 
