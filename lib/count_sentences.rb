@@ -6,6 +6,7 @@ class String
 
   def sentence?(period)
     self.end_with?(period)
+  end
 
   end
 
