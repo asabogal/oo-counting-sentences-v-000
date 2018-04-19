@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  attr_accesor :end_with?
+  attr_accessor :end_with?
 
   def sentence?(period)
     self.end_with?(period)
