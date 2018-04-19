@@ -18,6 +18,6 @@ class String
   def count_sentences
     #sentence_count = []
     self.split('.').count
-    # binding.pry
+    binding.pry
   end
 end
