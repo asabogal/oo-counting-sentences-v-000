@@ -8,7 +8,6 @@ class String
     self.end_with?(period)
   end
 
-  end
 
   def question?
 
